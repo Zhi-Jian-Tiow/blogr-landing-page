@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+
+.header-container {
+  background-image: url("../images/bg-pattern-intro.svg"),
+    linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  background-position-x: -30rem, 0;
+  background-position-y: -70rem, 0;
+  background-repeat: no-repeat;
+  padding: 5em;
+}

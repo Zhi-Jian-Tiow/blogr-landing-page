@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+.header-container {
+  background-image: url("../images/bg-pattern-intro.svg"), linear-gradient(to right, #ff8f70, #ff3d54);
+  background-position-x: -30rem, 0;
+  background-position-y: -70rem, 0;
+  background-repeat: no-repeat;
+  padding: 5em;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+.header img {
+  align-self: flex-start;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header .navbar {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+}
+
+/*# sourceMappingURL=style.css.map */
