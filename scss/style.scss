@@ -1,3 +1,29 @@
 @import "./base";
 @import "./component";
 @import "./layout";
+
+body {
+  margin: 0;
+}
+
+.header-container {
+  background-image: url("../images/bg-pattern-intro.svg"),
+    linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  background-position-x: -35rem, 0;
+  background-position-y: -85rem, 0;
+  background-repeat: no-repeat;
+  padding: 3em 5em;
+  padding-bottom: 8em;
+  border-bottom-left-radius: 5em;
+  color: $header-text-color;
+  font-family: $font-stack1;
+
+  h1 {
+    font-weight: 600;
+    font-size: 4em;
+  }
+
+  p {
+    font-weight: 300;
+  }
+}

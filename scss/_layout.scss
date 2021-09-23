@@ -1,10 +1,37 @@
-.header {
-  display: flex;
-  justify-content: space-between;
+.header-container {
+  text-align: center;
 
-  .navbar {
+  .header {
     display: flex;
-    flex: 1;
-    justify-content: space-around;
+    justify-content: space-between;
+
+    .navbar {
+      display: flex;
+      flex: 1;
+      justify-content: flex-start;
+
+      img[alt=logo] {
+        margin-right: 3em;
+      }
+
+      .dropdown {
+        margin: 1em;
+        text-align: center;
+
+        .menu {
+          text-align: center;
+          display: none;
+
+          ul {
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+
+  h1 {
+    margin-top: 2em;
+    margin-bottom: 0;
   }
 }

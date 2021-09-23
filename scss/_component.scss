@@ -1,8 +1,57 @@
-button {
-  background-color: transparent;
-  border: none;
+@import "./base";
+
+// Button style
+.header-container {
+  .menu-toggler {
+    button {
+      @extend %button;
+    }
+  }
+
+  .login {
+    button {
+      @extend %button;
+      margin: 0 1em;
+
+      &:nth-of-type(1) {
+        color: $header-text-color;
+      }
+
+      &:nth-of-type(2) {
+        color: $primary-color;
+        background-color: $header-text-color;
+        border-radius: 2em;
+        padding: 0.8em 1.5em;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .start {
+    button {
+      @extend %button;
+      margin: 2em 1em;
+
+      &:first-of-type {
+        color: $primary-color;
+        background-color: $header-text-color;
+        border-radius: 2em;
+        padding: 0.8em 1.5em;
+        font-weight: 600;
+      }
+
+      &:last-of-type {
+        border: solid;
+        border-color: $header-text-color;
+        border-radius: 2em;
+        padding: 0.8em 1.5em;
+        font-weight: 600;
+      }
+    }
+  }
 }
 
+// Images style
 .header {
   img {
     align-self: flex-start;

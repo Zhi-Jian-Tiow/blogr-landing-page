@@ -1,18 +1,46 @@
-body {
-  margin: 0;
-}
-
-.header-container {
-  background-image: url("../images/bg-pattern-intro.svg"), linear-gradient(to right, #ff8f70, #ff3d54);
-  background-position-x: -30rem, 0;
-  background-position-y: -70rem, 0;
-  background-repeat: no-repeat;
-  padding: 5em;
-}
-
-button {
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:ital,wght@0,700;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:ital,wght@0,700;1,400;1,500&display=swap");
+.header-container .start button, .header-container .login button, .header-container .menu-toggler button {
   background-color: transparent;
   border: none;
+  color: white;
+}
+
+.header-container .start button, .header-container .login button, .header-container .menu-toggler button {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.header-container .login button {
+  margin: 0 1em;
+}
+.header-container .login button:nth-of-type(1) {
+  color: white;
+}
+.header-container .login button:nth-of-type(2) {
+  color: #ff525d;
+  background-color: white;
+  border-radius: 2em;
+  padding: 0.8em 1.5em;
+  font-weight: 600;
+}
+.header-container .start button {
+  margin: 2em 1em;
+}
+.header-container .start button:first-of-type {
+  color: #ff525d;
+  background-color: white;
+  border-radius: 2em;
+  padding: 0.8em 1.5em;
+  font-weight: 600;
+}
+.header-container .start button:last-of-type {
+  border: solid;
+  border-color: white;
+  border-radius: 2em;
+  padding: 0.8em 1.5em;
+  font-weight: 600;
 }
 
 .header img {
@@ -23,14 +51,58 @@ li {
   list-style: none;
 }
 
-.header {
+.header-container {
+  text-align: center;
+}
+.header-container .header {
   display: flex;
   justify-content: space-between;
 }
-.header .navbar {
+.header-container .header .navbar {
   display: flex;
   flex: 1;
-  justify-content: space-around;
+  justify-content: flex-start;
+}
+.header-container .header .navbar img[alt=logo] {
+  margin-right: 3em;
+}
+.header-container .header .navbar .dropdown {
+  margin: 1em;
+  text-align: center;
+}
+.header-container .header .navbar .dropdown .menu {
+  text-align: center;
+  display: none;
+}
+.header-container .header .navbar .dropdown .menu ul {
+  padding: 0;
+}
+.header-container h1 {
+  margin-top: 2em;
+  margin-bottom: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.header-container {
+  background-image: url("../images/bg-pattern-intro.svg"), linear-gradient(to right, #ff8f70, #ff3d54);
+  background-position-x: -35rem, 0;
+  background-position-y: -85rem, 0;
+  background-repeat: no-repeat;
+  padding: 3em 5em;
+  padding-bottom: 8em;
+  border-bottom-left-radius: 5em;
+  color: white;
+  font-family: "Overpass", sans-serif;
+}
+.header-container h1 {
+  font-weight: 600;
+  font-size: 4em;
+}
+.header-container p {
+  font-weight: 300;
 }
 
 /*# sourceMappingURL=style.css.map */
