@@ -10,7 +10,7 @@
       flex: 1;
       justify-content: flex-start;
 
-      img[alt=logo] {
+      img[alt="logo"] {
         margin-right: 3em;
       }
 
@@ -33,5 +33,31 @@
   h1 {
     margin-top: 2em;
     margin-bottom: 0;
+  }
+}
+
+.body1 {
+  text-align: center;
+  position: relative;
+
+  .body1-container {
+    display: flex;
+
+    .body1-info {
+      margin: 7em;
+      text-align: left;
+
+      &:nth-of-type(1) {
+        margin-top: 9em;
+      }
+    }
+
+    .body1-img {
+      position: relative;
+      width: 130em;
+      height: auto;
+      overflow-x: hidden;
+      top: -5em;
+    }
   }
 }

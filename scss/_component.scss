@@ -57,6 +57,12 @@
     align-self: flex-start;
   }
 }
-li {
-  list-style: none;
+
+.body1-container {
+  .body1-img {
+    img {
+      position: relative;
+      right: 2em;
+    }
+  }
 }
