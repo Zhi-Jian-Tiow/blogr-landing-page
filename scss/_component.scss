@@ -75,3 +75,24 @@
     left: 5em;
   }
 }
+
+.body3 {
+  display: flex;
+  margin-top: 5em;
+
+  .body3-container {
+    justify-self: center;
+    align-self: center;
+
+    .body3-info {
+      margin: 5em;
+    }
+  }
+
+  .body3-img {
+    img {
+      position: relative;
+      left: -17.5em;
+    }
+  }
+}

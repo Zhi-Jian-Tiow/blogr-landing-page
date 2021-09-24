@@ -61,6 +61,22 @@
   left: 5em;
 }
 
+.body3 {
+  display: flex;
+  margin-top: 5em;
+}
+.body3 .body3-container {
+  justify-self: center;
+  align-self: center;
+}
+.body3 .body3-container .body3-info {
+  margin: 5em;
+}
+.body3 .body3-img img {
+  position: relative;
+  left: -17.5em;
+}
+
 .header-container {
   text-align: center;
 }
@@ -120,10 +136,19 @@
   height: 20em;
 }
 .body2 .body2-info {
-  margin-right: 10em;
+  margin-right: 7em;
   margin-left: 7em;
   justify-self: center;
   align-self: center;
+}
+
+.body3 {
+  display: flex;
+  margin-top: 5em;
+}
+.body3 .body3-img {
+  width: 140em;
+  overflow-x: hidden;
 }
 
 body {
@@ -189,7 +214,21 @@ li {
 }
 .body2 p {
   font-weight: 300;
-  font-size: 12px;
+  font-size: 15px;
+  line-height: 1.8em;
+}
+
+.body3 {
+  font-family: "Overpass", sans-serif;
+}
+.body3 h2 {
+  color: #1f3f5b;
+  font-weight: 600;
+}
+.body3 p {
+  font-weight: 300;
+  color: #4b5862;
+  font-size: 15px;
   line-height: 1.8em;
 }
 

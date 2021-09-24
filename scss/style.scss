@@ -73,7 +73,23 @@ li {
 
   p {
     font-weight: 300;
-    font-size: 12px;
+    font-size: 15px;
+    line-height: 1.8em;
+  }
+}
+
+.body3 {
+  font-family: $font-stack1;
+
+  h2 {
+    color: $heading-color;
+    font-weight: 600;
+  }
+
+  p {
+    font-weight: 300;
+    color: $body-text-color;
+    font-size: 15px;
     line-height: 1.8em;
   }
 }

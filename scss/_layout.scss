@@ -66,11 +66,22 @@
 .body2 {
   display: flex;
   height: 20em;
- 
+
   .body2-info {
-    margin-right: 10em;
+    margin-right: 7em;
     margin-left: 7em;
     justify-self: center;
     align-self: center;
+  }
+}
+
+.body3 {
+  display: flex;
+  margin-top: 5em;
+
+  .body3-img {
+    
+    width: 140em;
+    overflow-x: hidden;
   }
 }
