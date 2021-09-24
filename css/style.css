@@ -4,14 +4,19 @@
   background-color: transparent;
   border: none;
   color: white;
+  padding: 0;
 }
 
 .header-container .start button, .header-container .login button, .header-container .menu-toggler button {
   background-color: transparent;
   border: none;
   color: white;
+  padding: 0;
 }
 
+.header-container .menu-toggler button {
+  margin-left: 1em;
+}
 .header-container .login button {
   margin: 0 1em;
 }
@@ -75,6 +80,10 @@
 .body3 .body3-img img {
   position: relative;
   left: -17.5em;
+}
+
+footer img {
+  align-self: flex-start;
 }
 
 .header-container {
@@ -149,6 +158,42 @@
 .body3 .body3-img {
   width: 140em;
   overflow-x: hidden;
+}
+
+footer {
+  display: flex;
+  justify-content: start;
+  flex: 1;
+  margin-top: 8em;
+}
+footer img {
+  margin-left: 8em;
+  margin-right: 4em;
+  margin-top: 1em;
+}
+footer div {
+  margin: 0 6em;
+}
+footer div h3 {
+  margin-bottom: 2em;
+}
+footer ul {
+  padding: 0;
+}
+
+.dropdown button {
+  cursor: pointer;
+}
+.dropdown button:hover {
+  border-bottom: solid white;
+  transform: scaleX(1);
+  transition: transform 0.5s ease-in-out;
+}
+.dropdown button:hover {
+  transform: scaleX(1);
+}
+.dropdown img {
+  cursor: pointer;
 }
 
 body {
@@ -230,6 +275,22 @@ li {
   color: #4b5862;
   font-size: 15px;
   line-height: 1.8em;
+}
+
+footer {
+  font-family: "Overpass", sans-serif;
+  background-color: #25252d;
+  color: #c8c8cb;
+  padding: 3em 0;
+  border-top-right-radius: 5em;
+}
+footer h3 {
+  color: white;
+  font-weight: 600px;
+  font-size: 1.2em;
+}
+footer p {
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

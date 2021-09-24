@@ -5,6 +5,7 @@
   .menu-toggler {
     button {
       @extend %button;
+      margin-left: 1em;
     }
   }
 
@@ -94,5 +95,11 @@
       position: relative;
       left: -17.5em;
     }
+  }
+}
+
+footer {
+  img {
+    align-self: flex-start;
   }
 }

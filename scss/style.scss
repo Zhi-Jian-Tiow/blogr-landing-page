@@ -1,6 +1,7 @@
 @import "./base";
 @import "./component";
 @import "./layout";
+@import "./active-state";
 
 body {
   margin: 0;
@@ -91,5 +92,23 @@ li {
     color: $body-text-color;
     font-size: 15px;
     line-height: 1.8em;
+  }
+}
+
+footer {
+  font-family: $font-stack1;
+  background-color: $footer-background;
+  color: $footer-text-color;
+  padding: 3em 0;
+  border-top-right-radius: 5em;
+
+  h3 {
+    color: $header-text-color;
+    font-weight: 600px;
+    font-size: 1.2em;
+  }
+
+  p {
+    font-size: 15px;
   }
 }

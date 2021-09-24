@@ -13,5 +13,6 @@ $font-stack2: "Ubuntu", sans-serif;
 %button {
   background-color: transparent;
   border: none;
-  color: $header-text-color
+  color: $header-text-color;
+  padding: 0;
 }
