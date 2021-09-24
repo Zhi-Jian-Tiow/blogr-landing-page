@@ -54,3 +54,26 @@ li {
     line-height: 1.8em;
   }
 }
+
+.body2 {
+  background-image: url("../images/bg-pattern-circles.svg"),
+    linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+  background-repeat: no-repeat;
+  background-position-x: -14em, 0;
+  background-position-y: -36em, 0;
+  color: $header-text-color;
+  font-family: $font-stack1;
+  border-top-right-radius: 5em;
+  border-bottom-left-radius: 5em;
+
+  h2 {
+    font-weight: 600;
+    font-size: 2em;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.8em;
+  }
+}

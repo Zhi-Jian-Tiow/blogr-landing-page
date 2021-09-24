@@ -52,6 +52,15 @@
   right: 2em;
 }
 
+.body2-img {
+  width: 100%;
+}
+.body2-img img {
+  position: relative;
+  top: -10em;
+  left: 5em;
+}
+
 .header-container {
   text-align: center;
 }
@@ -86,6 +95,7 @@
 .body1 {
   text-align: center;
   position: relative;
+  margin-bottom: -2em;
 }
 .body1 .body1-container {
   display: flex;
@@ -103,6 +113,17 @@
   height: auto;
   overflow-x: hidden;
   top: -5em;
+}
+
+.body2 {
+  display: flex;
+  height: 20em;
+}
+.body2 .body2-info {
+  margin-right: 10em;
+  margin-left: 7em;
+  justify-self: center;
+  align-self: center;
 }
 
 body {
@@ -149,6 +170,26 @@ li {
   font-weight: 300;
   color: #4b5862;
   font-size: 15px;
+  line-height: 1.8em;
+}
+
+.body2 {
+  background-image: url("../images/bg-pattern-circles.svg"), linear-gradient(to right, #2c2d3f, #3f4164);
+  background-repeat: no-repeat;
+  background-position-x: -14em, 0;
+  background-position-y: -36em, 0;
+  color: white;
+  font-family: "Overpass", sans-serif;
+  border-top-right-radius: 5em;
+  border-bottom-left-radius: 5em;
+}
+.body2 h2 {
+  font-weight: 600;
+  font-size: 2em;
+}
+.body2 p {
+  font-weight: 300;
+  font-size: 12px;
   line-height: 1.8em;
 }
 
