@@ -94,6 +94,32 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  .header-container {
+    .login {
+      button {
+        font-size: 1.1em;
+        &:first-of-type {
+          color: $heading-color;
+          font-weight: 600;
+        }
+        &:last-of-type {
+          background-image: linear-gradient(
+            to right,
+            hsl(13, 100%, 72%),
+            hsl(353, 100%, 62%)
+          );
+          color: $header-text-color;
+        }
+      }
+    }
+    .menu-toggler {
+      img {
+        content: url("../images/icon-arrow-dark.svg");
+        align-self: center;
+      }
+    }
+  }
+
   .body1-img {
     img {
       content: url("../images/illustration-editor-mobile.svg");
@@ -107,6 +133,7 @@ footer {
       right: 1em;
       left: 0;
       width: 100%;
+      top: -18em;
     }
   }
   .body3-img {
@@ -114,6 +141,14 @@ footer {
       content: url("../images/illustration-laptop-mobile.svg");
       width: 100%;
       left: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .body2-img {
+    img {
+      top: -10em;
     }
   }
 }

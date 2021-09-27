@@ -131,13 +131,67 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  .header-container {
+    background-image: url("../images/bg-pattern-intro.svg"),
+      linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    background-position-x: -20rem, 0;
+    background-position-y: -18rem, 0;
+    background-size: 315%;
+    padding: 3em 2.5em 7em;
+
+    h1 {
+      font-size: 2em;
+    }
+
+    .navbar {
+      background-color: $header-text-color;
+      box-shadow: 0 10px 10px 1px hsl(240, 2%, 79%, 0.2);
+      .menu-toggler {
+        button {
+          color: $heading-color;
+          font-weight: 600;
+          font-size: 1.1em;
+        }
+      }
+
+      .menu {
+        background-color: hsl(240, 2%, 79%, 0.2);
+      }
+
+      .login {
+        border-top: solid $footer-text-color;
+        border-top-width: 1px;
+      }
+    }
+
+    li {
+      font-size: 1em;
+      color: $heading-color;
+      font-weight: 600;
+    }
+  }
+
   .body2 {
     background-position-x: -6em, 0;
     background-position-y: -10em, 0;
     background-size: 150%, cover;
 
     h2 {
+      font-size: 3.5em;
+    }
+    p {
+      font-size: 1.5em;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .body2 {
+    h2 {
       font-size: 2.5em;
+    }
+    p {
+      font-size: 15px;
     }
   }
 }
