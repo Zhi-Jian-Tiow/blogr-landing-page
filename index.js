@@ -14,39 +14,6 @@ for (let i = 0; i < headerButton.length; i++) {
   });
 }
 
-// for (let i = 0; i < headerButton.length; i++) {
-//   headerButton[i].addEventListener("mouseleave", function () {
-//     let menu = this.nextElementSibling;
-
-//     if (menu.style.display === "block") {
-//       menu.style.display = "none";
-//     }
-//   });
-
-//   $(headerButton[i]).on("click mouseleave", function () {
-//     let menu = this.nextElementSibling;
-//     if (menu.style.display === "block") {
-//       menu.style.display = "none";
-//     }
-//   });
-// }
-
-// for (let i = 0; i < dropdownMenu.length; i++) {
-//   dropdownMenu[i].addEventListener("mouseover", function () {
-//     let menu = this;
-//     menu.style.display = "block";
-//   });
-// }
-
-// for (let i = 0; i < dropdownMenu.length; i++) {
-//   dropdownMenu[i].addEventListener("mouseleave", function () {
-//     let menu = this;
-//     if (menu.style.display === "block") {
-//       menu.style.display = "none";
-//     }
-//   });
-// }
-
 // Handle mobile menu
 mobileMenu.addEventListener("click", () => {
   if (
